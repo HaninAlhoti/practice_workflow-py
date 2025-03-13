@@ -21,7 +21,7 @@ jobs:
       - name: Install dep.
         run: |
           python -m pip install --upgrade pip
-          pip install -r /home/eng_hanin/practice_workflow-py/practice_workflow-py/requirements.txt
+          pip install -r $GITHUB_WORKSPACE/requirements.txt
         
       - name: Run build
         run: |
