@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@4
         with:
           name: build-artifact
-          path: dist/
+          path: practice_workflow-py/practice_workflow-py/build
 
 
 
